@@ -1711,7 +1711,7 @@ function OrionLib:MakeWindow(WindowConfig)
 	end  
 	
 	OrionLib:MakeNotification({
-		Name = "",
+		Name = " ",
 		Content = "Made By teknoege",
 		Time = 5
 	})
