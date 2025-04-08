@@ -1709,7 +1709,15 @@ function OrionLib:MakeWindow(WindowConfig)
 		end
 		return ElementFunction   
 	end  
+	
+	OrionLib:MakeNotification({
+		Name = "",
+		Content = "Made By teknoege",
+		Time = 5
+	})
+	
 
+	
 	return TabFunction
 end   
 
